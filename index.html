@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #eef1de;
+}
+
+/* Header/Blog Title */
+.header {
+  font-size: 25px;
+  text-align: center;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 20px;
+  background-color: rgb(169, 216, 75);
+  
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  padding-right: 20px;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: white;
+  margin-top: 15px;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 20px;
+}
+
+
+.card {
+   background-color: white;
+   padding: 15px;
+   margin-top: 20px;
+   box-shadow: 5px 5px 5px grey;
+   border-radius: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <b><p>E - NEWSPAPER</p></b>
+</div>
+
+<div class="row ">
+  <div class="leftcolumn">
+    <div class="card" id="card1">
+      <h2>Lloroso Messi confirma que se marcha del Barcelona, ​​en conversaciones con el PSG</h2>
+      <h5>9 de agosto de 2021
+        2:18 AM IST</h5>
+      <img class="img-responsive" src="BARCA.jpeg">
+      <p id="p1" style="font: size 1.6vw;">Lionel Messi, el mejor futbolista de su generación, deja el FC Barcelona, ​​el único club profesional en el que ha jugado, según el equipo. La noticia se conoció el 6 de agosto, la noche en que la potencia española emitió un comunicado en el que decía: "Messi no se quedará en el FC Barcelona".</p>
+    </div>
+  
+
+    <div class="card">
+      <h2>Marileidy Paulino's Olympic run is a historic win for the Dominican Republic</h2>
+      <h5>Aug. 6, 2021, 8:17 PM IST</h5>
+      <img class="img-responsive" id="imgs"  src="pic.jpeg"><Image>
+      <p style="font: size 1.6vw;">La velocista de 24 años capturó la plata el viernes en la final femenina de 400 metros con un tiempo de 49.20, ganando la primera medalla de República Dominicana en pista y campo femenino. Con Shaunae Miller-Uibo de Bahamas, venció a la estadounidense Allyson Felix, cuya medalla de bronce la convirtió en la mujer más condecorada en la historia de la pista olímpica.</p>
+    </div>
+  </div>
+
+
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>España registra caída de ingresos hospitalarios a medida que caen los casos de coronavirus</h2>
+      <h5><b>Madrid</b> - 10 DE AGOSTO DE 2021-09: 30 CEST</h5>
+      <img class="img-responsive" src="hospital.jpeg">
+      <p style="font: size 1.6vw;">El número de casos de coronavirus en la quinta ola de España ha tenido una tendencia a la baja desde el 28 de julio, pero es solo ahora que la caída se refleja en los ingresos hospitalarios por Covid-19. Por primera vez desde junio, el número de hospitalizaciones semanales ha disminuido: el lunes, 10.411 personas estaban hospitalizadas con Covid-19, 167 menos que hace siete días. Si bien esta cifra es superior a la reportada el viernes (10.015), esto se debe a que los datos reportados los lunes cubren los fines de semana y menos pacientes son dados de alta los sábados y domingos.</p>
+    </div>
+
+
+    <div class="card">
+      <h2>Los lagos en Argentina se vuelven rosados: este es el motivo por el que es una señal preocupante</h2>
+      <h5>2 de agosto de 2021 <b>ACTUALIZADO:</b> 3 de agosto de 2021 10:16 IST</h5>
+      <img class="img-responsive" src="Pink_Lake_1.jpeg">
+      <p style="font: size 1.6vw;">Dos lagos en una región costera lejana de la Patagonia, en Argentina, se han vuelto de color rosa fluorescente, un fenómeno aún inexplicable que los ambientalistas locales temen que pueda ser dañino y causado por la contaminación industrial.<br><br> lagos, ubicados cerca de un parque industrial en las afueras de la ciudad argentina de Trelew, se extienden por una llanura polvorienta y desértica y están en gran parte sin desarrollar. Funcionarios del municipio de Trelew descubrieron recientemente un camión que arrojaba desechos en la cuenca, según publicaciones realizadas por la ciudad en las redes sociales.<br><br>Sin embargo, las autoridades dieron puntos de vista contradictorios a los medios locales sobre si el cambio repentino de color de los lagos era perjudicial. Los ambientalistas estaban más preocupados.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Designed and made by - Dhruv Gandhi, 8-A</h2>
+</div>
+
+</body>
+</html>
